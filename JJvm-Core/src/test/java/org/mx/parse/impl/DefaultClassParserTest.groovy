@@ -27,6 +27,7 @@ class DefaultClassParserTest extends Specification {
     jClass.getMinorVersion() == new TwoByteImpl(new byte[]{0x00, 0x00})
     jClass.getMajorVersion() == new TwoByteImpl(new byte[]{0x00, 0x34})
     jClass.getConstantPoolCount() == new TwoByteImpl(new byte[]{0x00, 0x1b})
+    println jClass
 
   }
 

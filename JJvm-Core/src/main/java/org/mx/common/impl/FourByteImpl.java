@@ -56,4 +56,9 @@ public class FourByteImpl implements FourByte {
   public int hashCode() {
     return Arrays.hashCode(value);
   }
+  
+  @Override
+  public String toString() {
+    return String.valueOf(toUnsignedInt());
+  }
 }

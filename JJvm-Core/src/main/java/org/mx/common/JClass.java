@@ -49,5 +49,4 @@ public interface JClass {
   JAttributes getJattributes();
 
   void setJAttributes(JAttributes jattributes);
-
 }

@@ -160,4 +160,26 @@ public class JClassImpl implements JClass {
   public void setJAttributes(JAttributes jattributes) {
     this.jattributes = jattributes;
   }
+  
+  @Override
+  public String toString() {
+    return "JClassImpl{" +
+      "magicNumber=" + magicNumber +
+      ", minorVersion=" + minorVersion +
+      ", majorVersion=" + majorVersion +
+      ", constantPoolCount=" + constantPoolCount +
+      ", jconstantPool=" + jconstantPool +
+      ", accessFlag=" + accessFlag +
+      ", thisClass=" + thisClass +
+      ", superClass=" + superClass +
+      ", interfacesCount=" + interfacesCount +
+      ", interfaces=" + interfaces +
+      ", fieldsCount=" + fieldsCount +
+      ", jfields=" + jfields +
+      ", methodsCount=" + methodsCount +
+      ", jmethods=" + jmethods +
+      ", attributesCount=" + attributesCount +
+      ", jattributes=" + jattributes +
+      '}';
+  }
 }
